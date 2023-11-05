@@ -2194,8 +2194,9 @@ if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
     "null",
     "http://mozilla.github.io",
     "https://mozilla.github.io",
-    "https://bigpalbucket1.s3.amazonaws.com/",
+    "https://bigpalbucket1.s3.amazonaws.com",
     "http://localhost:8080",
+    "https://bigpal.me",
   ];
   // eslint-disable-next-line no-var
   var validateFileURL = function (file) {
